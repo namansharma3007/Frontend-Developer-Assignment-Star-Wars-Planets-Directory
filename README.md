@@ -17,7 +17,7 @@ git clone https://github.com/namansharma3007/Frontend-Developer-Assignment-Star-
 2. Navigate into the project directory:
 
 ```
-cd image-pro
+cd Frontend-Developer-Assignment-Star-Wars-Planets-Directory
 ```
 
 3. Install dependencies using npm:
