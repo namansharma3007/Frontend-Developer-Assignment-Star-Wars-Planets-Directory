@@ -7,19 +7,19 @@ import PlanetsDetail from "./pages/PlanetsDetail";
 const App = () => {
   return (
     <>
-      <div className="fixed inset-0 overflow-hidden -z-10">
-        <video
-          autoPlay
-          muted
-          loop
-          id="video-bg"
-          className="w-full h-full object-cover"
-        >
-          <source src="/background.mp4" type="video/mp4" />
-        </video>
-        <div className="fixed inset-0 bg-black opacity-50"></div>
-      </div>
       <div className="w-full h-full">
+        <div className="fixed inset-0 overflow-hidden -z-10">
+          <video
+            autoPlay
+            muted
+            loop
+            id="video-bg"
+            className="w-full h-full object-cover"
+          >
+            <source src="/background.mp4" type="video/mp4" />
+          </video>
+          <div className="fixed inset-0 bg-black opacity-50"></div>
+        </div>
         <Navbar />
         <Routes>
           <Route path="/" element={<Hereosection />} />
