@@ -1,5 +1,7 @@
 import React from "react";
 
+
+// Loading component to display loading indicator with text
 const LoadingData = ({text}) => {
   return (
     <div>

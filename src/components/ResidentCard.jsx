@@ -1,5 +1,6 @@
 import React from "react";
 
+// ResidentCard component to display information about a resident
 const ResidentCard = ({name, mass, height, hair_color, gender, eye_color, skin_color}) => {
   return (
     <div className="glass flex flex-col glass p-2 h-full cursor-default">

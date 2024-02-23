@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// PlanetCard component to display information about a planet
 const PlanetCard = ({
   value,
   name,

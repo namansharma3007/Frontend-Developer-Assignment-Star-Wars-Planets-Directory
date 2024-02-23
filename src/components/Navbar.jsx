@@ -1,5 +1,6 @@
 import React from "react";
 
+// Navbar component
 const Navbar = () => {
   return (
     <div className="flex justify-center py-3 w-full">
