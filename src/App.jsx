@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hereosection from "./pages/Hereosection";
 import { Route, Routes } from "react-router-dom";
 import PlanetsDetail from "./pages/PlanetsDetail";
+import VIDEO from './assets/background.mp4';
 
 // Main App component
 const App = () => {
@@ -17,7 +18,7 @@ const App = () => {
           id="video-bg"
           className="w-full h-full object-cover"
         >
-          <source src="./src/assets/background.mp4" type="video/mp4" />
+          <source src={VIDEO} type="video/mp4" />
         </video>
         <div className="fixed inset-0 bg-black opacity-60"></div>
       </div>
