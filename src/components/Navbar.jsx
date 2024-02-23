@@ -9,7 +9,7 @@ const Navbar = () => {
           alt="img"
           className="w-10 h-10 filter brightness-0 invert grayscale"
         />
-        <h1 className="text-4xl font-bold text-white">Galactic Explorer</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold text-white">Galactic Explorer</h1>
       </div>
     </div>
   );
