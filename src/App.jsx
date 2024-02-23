@@ -6,7 +6,7 @@ import PlanetsDetail from "./pages/PlanetsDetail";
 
 const App = () => {
   return (
-    <div className="relative w-full h-full">
+    <div className="w-full h-full">
       <div className="fixed inset-0 overflow-hidden -z-10">
         <video autoPlay muted loop id="video-bg" className="w-full h-full object-cover">
           <source src="/background.mp4" type="video/mp4" />

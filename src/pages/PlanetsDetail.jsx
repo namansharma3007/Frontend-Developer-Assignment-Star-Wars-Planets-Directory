@@ -49,10 +49,6 @@ const PlanetsDetail = () => {
     );
   }
 
-  // const residentsDisplay = residents.map((item, index) => (
-  //   <ResidentCard key={index} {...item} />
-  // ));
-
   return (
     <section className="px-5 py-5 flex flex-col gap-5 sm:px-10">
       <div className="text-4xl font-bold text-center text-white underline">
