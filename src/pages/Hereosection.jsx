@@ -33,7 +33,7 @@ export default function HeroSection() {
   }
 
   return (
-    <section className="h-max px-5 py-10 sm:px-10">
+    <section className="h-max px-5 py-5 sm:px-10">
       <div className="flex flex-col gap-3">
         {/* Section title and description */}
         <div className="flex flex-col gap-2">
@@ -47,7 +47,7 @@ export default function HeroSection() {
 
         {/* Loading indicator while fetching data */}
         {isLoadingData ? (
-          <div className="flex justify-center items-center h-[23rem]">
+          <div className="flex justify-center items-center h-[28.5rem]">
             <LoadingData text="Loading planets" />
           </div>
         ) : (

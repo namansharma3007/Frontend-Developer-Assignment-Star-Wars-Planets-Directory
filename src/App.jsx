@@ -19,7 +19,7 @@ const App = () => {
         >
           <source src="/background.mp4" type="video/mp4" />
         </video>
-        <div className="fixed inset-0 bg-black opacity-50"></div>
+        <div className="fixed inset-0 bg-black opacity-60"></div>
       </div>
 
       {/* Navbar component */}
