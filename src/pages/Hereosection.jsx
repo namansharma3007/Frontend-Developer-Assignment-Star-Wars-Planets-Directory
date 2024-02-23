@@ -28,7 +28,7 @@ export default function HeroSection() {
   }
 
   return (
-    <section className="h-max p-10 mb-3">
+    <section className="h-max px-5 py-10 sm:px-10">
       <div className="flex flex-col gap-3">
         <div className="flex flex-col gap-2">
           <h2 className="text-4xl font-bold tracking-wider text-white">
