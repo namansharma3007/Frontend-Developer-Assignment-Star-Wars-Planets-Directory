@@ -46,7 +46,7 @@ const Pagination = ({ setCurrentPageNumber, currentPageNumber, totalData }) => {
       <div className="flex shrink">
         {/* Button to decrement page number */}
         <button
-          className="rounded-tl rounded-bl bg-gray-200 hover:bg-blue-600 h-10 w-10 flex items-center justify-center transition duration-100 ease-in-out hover:text-white"
+          className="rounded-tl rounded-bl bg-gray-200 h-10 w-10 flex items-center justify-center transition duration-100 ease-in-out "
           onClick={() => decrementPage(currentPageNumber)}
         >
           <span>«</span>
@@ -57,7 +57,7 @@ const Pagination = ({ setCurrentPageNumber, currentPageNumber, totalData }) => {
 
         {/* Button to increment page number */}
         <button
-          className="rounded-tr rounded-br bg-gray-200 hover:bg-blue-600 h-10 w-10 flex items-center justify-center transition duration-100 ease-in-out hover:text-white"
+          className="rounded-tr rounded-br bg-gray-200 h-10 w-10 flex items-center justify-center transition duration-100 ease-in-out "
           onClick={() => incrementPage(currentPageNumber)}
         >
           <span>»</span>
