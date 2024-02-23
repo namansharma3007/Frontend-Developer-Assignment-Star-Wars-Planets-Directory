@@ -6,7 +6,6 @@ import PlanetsDetail from "./pages/PlanetsDetail";
 
 const App = () => {
   return (
-    <>
       <div className="w-full h-full">
         <div className="fixed inset-0 overflow-hidden -z-10">
           <video
@@ -27,7 +26,6 @@ const App = () => {
           <Route path="/planet/:planetId" element={<PlanetsDetail />} />
         </Routes>
       </div>
-    </>
   );
 };
 
