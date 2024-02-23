@@ -57,7 +57,7 @@ const Pagination = ({ setCurrentPageNumber, currentPageNumber, totalData }) => {
 
         {/* Button to increment page number */}
         <button
-          className="rounded-tr rounded-br bg-gray-200 h-10 w-10 flex items-center justify-center transition duration-100 ease-in-out "
+          className="rounded-tr rounded-br bg-gray-200 h-10 w-10 flex items-center justify-center transition duration-100 ease-in-out"
           onClick={() => incrementPage(currentPageNumber)}
         >
           <span>»</span>
